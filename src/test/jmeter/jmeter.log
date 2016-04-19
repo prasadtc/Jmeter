@@ -1,0 +1,12 @@
+2016/04/19 18:43:35 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2016/04/19 18:43:35 INFO  - jmeter.JMeter: Loading user properties from: C:\jmeter\bin\user.properties 
+2016/04/19 18:43:35 INFO  - jmeter.JMeter: Loading system properties from: C:\jmeter\bin\system.properties 
+2016/04/19 18:43:35 FATAL - jmeter.JMeter: An error occurred:  java.lang.IllegalArgumentException: Unknown arg: C:\Users\prasadt\NewWorkSpace\Jmeter\src\test\jmeter\Test1.jmx
+	at org.apache.jmeter.JMeter.initializeProperties(JMeter.java:607)
+	at org.apache.jmeter.JMeter.start(JMeter.java:299)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:264)
+
